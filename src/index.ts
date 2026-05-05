@@ -6,7 +6,6 @@
 //
 // Objectif : améliorer la structuration du code et comprendre les patterns en situation réelle.
 
-
 //Interface commune pour tous les moyens de paiements
 interface PaiementStrategy {
     payer(montant: number): void;
